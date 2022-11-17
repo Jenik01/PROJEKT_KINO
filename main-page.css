@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+* { margin: 0;
+  padding: 0; 
+ box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+ }  
+
+/*body { display: flex;
+  justify-content: center;
+  align-items: center;                                    
+  min-height: 100vh; 
+  overflow: hidden;} */
+
+/*ul { position: relative; }*/ 
+
+.kino                                                                                 /*PRVNÍ STRÁNKA*/
+{
+  background-image:url(./img/background_pekarna.png);
+  opacity:0.5 ;
+  
+  height: 100vh;
+  /*object-fit: cover;*/} 
+
+ul li { list-style: none; 
+  text-align: center; } 
+
+ul li a { color: #333; 
+  text-decoration: none; 
+  font-size: 3em; 
+  padding: 5px 20px; 
+  display: inline-flex;
+  font-weight: 700; 
+  transition: 0.5s; } 
+
+ul:hover li a { color: #0002; }
+
+ul li:hover a { color: #000; background: rgba(255,255,255,1); } 
+
+ul li a:before { content: '';
+  position: absolute;
+  top: 50%;
+  left: 40%; 
+  transform: translate(-50%,-50%);
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  font-size: 5em;
+  color: rgba(0,0,0,.1);
+  border-radius: 50%;
+  z-index: -1;
+  opacity: 0; 
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 500px; 
+  transition: letter-spacing 0.5s,left 0.5s;}
+
+ul li a:hover:before { content: attr(data-text); 
+  opacity: 1;
+  left: 50%; 
+  letter-spacing: 10px;
+  width: 1800px;
+  height: 1800px; } 
+
+ul li:nth-child(6n+1) a:before { background: #e3401f; } 
+ul li:nth-child(6n+2) a:before { background: #e99e1d; } 
+ul li:nth-child(6n+3) a:before { background: #e4ea3d; } 
+ul li:nth-child(6n+4) a:before { background: #33d946; }
+ul li:nth-child(6n+5) a:before { background: #5fbae4; } 
+ul li:nth-child(6n+6) a:before { background: #7d28de; }                                      /*PRVNÍ STRÁNKA*/
+
+                                                                                                  /*DRUHÁ STRÁNKA*/
+.predstaveni
+{
+ height:100vh;
+background-color: #000;
+color: aliceblue;
+padding: 20px;
+height: 100vh;
+}
+  
+
+
+
+
+
+    
+ 
+
+
+  
+
+
+.img{
+  
+    max-width:100%; 
+    }
+
+
+
+
+
+
+ 
+.left {
+  
+ 
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+
+}
+
+
+
+  
+ 
+ 
+
+
+.timetable{
+  text-align: left;
+  align-items: center;  
+  padding-left: 40px;
+}
+
+
+.iframe{
+  display: flex;
+  max-width:100%;  
+   align-items: flex-start;
+   justify-content: flex-end;
+   flex-wrap: nowrap;
+   position: absolute;
+   left: 50%;
+   bottom: -85%;
+  
+  
+  
+  }
+}
+
+
+
+
+                                                                                           /*DRUHÁ STRÁNKA*/
+ 
+
+
+/*.organiz/ace
+{
+  text-align: end;
+  padding-top:30px ;
+  max-width: 400px;
+  
+}*/
+
+
+
+  
+
+
+
+
+
+/*.container
+{
+  height: 100vh;
+}*/
+
+
+
+         
+            
+ footer  {
+   background-color: #000;
+   color: white;}
+     
+            
+.text-center {
+  text-align: center;
+  background-color: #000;
+  color: white;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*není*/
+/*.money 
+{
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  
+}*/
+
+
+
+
+
+
+
+
+
+
+
